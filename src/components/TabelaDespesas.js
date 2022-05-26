@@ -77,7 +77,7 @@ class TabelaDespesas extends React.Component {
                   <button
                     type="button"
                     data-testid="edit-btn"
-                    className="btn btn-warning me-1"
+                    className="btn btn-warning me-1 btn-elevado"
                     onClick={ () => this.editExpensehandle(expense) }
                   >
                     Editar
@@ -85,7 +85,7 @@ class TabelaDespesas extends React.Component {
                   <button
                     type="button"
                     data-testid="delete-btn"
-                    className="btn btn-danger"
+                    className="btn btn-danger btn-elevado"
                     onClick={ () => this.deleteExpensehandle(expense) }
                   >
                     Excluir

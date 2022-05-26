@@ -1,5 +1,5 @@
 .imgLogo {
-  width: 15%;
+  width: 7%;
 }
 
 input {
@@ -9,4 +9,8 @@ input {
 .addEdit {
   height: 40px;
   margin-top: 1.5%;
+}
+
+.btn-elevado {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
