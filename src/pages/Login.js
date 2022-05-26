@@ -92,7 +92,7 @@ class Login extends React.Component {
           <div>
             <button
               type="submit"
-              className="btn btn-success form-control"
+              className="btn btn-success form-control btn-elevado"
               disabled={ emailErro || passwordErro }
             >
               Entrar
